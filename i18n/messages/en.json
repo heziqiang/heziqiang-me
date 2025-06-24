@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "title": "Ziqiang He's Website",
+    "description": "Ziqiang He's personal space, a world full of creativity and technology"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "brand": "My Website"
+  },
+  "home": {
+    "greeting": "Hey there!  I'm Ziqiang",
+    "description": "Welcome to my personal space, a world full of creativity and technology",
+    "aboutButton": "About Me"
+  },
+  "about": {
+    "title": "Hey there! I'm Ziqiang",
+    "intro1": "I'm a full-stack engineer with 9 years of experience in js/node/python development.",
+    "intro2": "I've led the architectural design and development of systems with hundreds of millions of users (Taobao Double 11 activity building), and excel in web performance optimization and cross-platform responsive compatibility.",
+    "intro3": "Over the past 2 years, I've embraced AI large model applications, not just for programming assistance, but also for practical implementation of AI clothing photography projects for cross-border e-commerce. I'm fluent in English and regularly communicate with international teams.",
+    "skills": "Skills",
+    "frontendDev": "Frontend",
+    "backendDev": "Backend",
+    "devOps": "DevOps",
+    "aiModels": "AI Models",
+    "workExperience": "Career Experience",
+    "urbanicTitle": "Urbanic",
+    "urbanicPosition": "Cross-border E-commerce Technical Lead | 2023-Present",
+    "urbanicDescription": "Responsible for cross-border e-commerce business technology development, including user research, interaction design, and visual design. Led the design work of several important projects, significantly improving product user satisfaction.",
+    "xiaohongshuTitle": "Xiaohongshu",
+    "xiaohongshuPosition": "Frontend Technical Expert | 2022-2023",
+    "xiaohongshuDescription": "Responsible for recommendation system frontend development, including user research, interaction design, and visual design. Led the design work of several important projects, significantly improving product user satisfaction.",
+    "alibabaTitle": "Alibaba(Taobao)",
+    "alibabaPosition": "Frontend Technical Expert | 2017-2022",
+    "alibabaDescription": "Participated in system design work for multiple mobile applications and websites, including Double 11 promotion, responsible for user interface design and interaction design, and developed cross-functional team collaboration capabilities.",
+    "dingdingTitle": "Teambition",
+    "dingdingPosition": "Node.js Engineer | 2015-2017",
+    "dingdingDescription": "Participated in system design work for multiple mobile applications and websites, including Double 11 promotion, responsible for user interface design and interaction design, and developed cross-functional team collaboration capabilities.",
+    "education": "Education",
+    "universityName": "East China University of Science and Technology",
+    "universityMajor": "Information and Computing Science | 2008-2012",
+    "universityDescription": "Bachelor of Science, National Key 985/211 Project University",
+    "backToHome": "Back to Home"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "These are some of the projects I have completed recently, including both company projects and personal projects. Welcome any discussions.",
+    "backToHome": "Back to Home",
+    "projects": [
+      {
+        "title": "User Experience Design System",
+        "description": "A complete user experience system designed for large enterprises, including component libraries, design specifications, and interaction patterns.",
+        "category": "UX Design"
+      },
+      {
+        "title": "Brand Identity System",
+        "description": "A brand identity system created for startups, including logos, color systems, fonts, and application guidelines.",
+        "category": "Brand Design"
+      }
+    ]
+  }
+}

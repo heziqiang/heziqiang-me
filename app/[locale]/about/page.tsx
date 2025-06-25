@@ -192,6 +192,7 @@ export default async function About({
               <p className="mb-2">{t("intro1")}</p>
               <p className="mb-2">{t("intro2")}</p>
               <p className="mb-2">{t("intro3")}</p>
+              <p className="mb-2">{t("intro4")}</p>
             </div>
           </div>
 

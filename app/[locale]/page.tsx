@@ -9,11 +9,9 @@ export default async function Home({ params }: { params: { locale: string } }) {
   
   // 先设置请求语言
   setRequestLocale(locale);
-  console.log('locale in home page: ', locale)
   
   // 然后获取翻译
   const t = await getTranslations('home');
-  console.log(`t('greeting') : ${t('greeting')}`)
   
   return (
     <>

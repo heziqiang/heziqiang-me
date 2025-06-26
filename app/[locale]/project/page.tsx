@@ -8,7 +8,7 @@ import { getAllProjects } from "@/data/projects";
 export default async function Project({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
   const resolvedParams = await params;
   const locale = resolvedParams.locale;

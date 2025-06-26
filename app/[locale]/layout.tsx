@@ -19,7 +19,7 @@ const notoSansSC = Noto_Sans_SC({
 
 type Props = {
   children: ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -36,10 +36,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function LocaleLayout({ children, params }: Props) {
+export default async function LocaleLayout({
+  children,
+  params
+}: Props) {
   const resolvedParams = await params;
   const locale = resolvedParams.locale;
-
+  
   setRequestLocale(locale);
   const messages = await getMessages();
 

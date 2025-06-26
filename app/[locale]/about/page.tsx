@@ -1,5 +1,6 @@
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
@@ -35,7 +36,7 @@ type Education = {
 export default async function About({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
   const resolvedParams = await params;
   const locale = resolvedParams.locale;
@@ -244,9 +245,11 @@ export default async function About({
                   className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1"
                 >
                   <div className="flex items-center gap-4 mb-4">
-                    <img
+                    <Image
                       src={experience.logo}
                       alt={t(experience.titleKey)}
+                      width={32}
+                      height={32}
                       className="w-8 h-8 object-cover rounded-full border border-gray-200"
                     />
                     <div>
@@ -278,9 +281,11 @@ export default async function About({
                   className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1"
                 >
                   <div className="flex items-center gap-4 mb-2">
-                    <img
+                    <Image
                       src={education.logo}
                       alt={t(education.titleKey)}
+                      width={32}
+                      height={32}
                       className="w-8 h-8 object-cover rounded-full border border-gray-200"
                     />
                     <div>

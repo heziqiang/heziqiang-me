@@ -1,12 +1,12 @@
-import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getProjectById, getProjectContent, getAllProjects } from "@/data/projects";
+import { Link } from "@/i18n/navigation";
 
 export default async function ProjectDetail({
   params,
 }: {
-  params: { locale: string; id: string };
+  params: Promise<{ locale: string; id: string }>;
 }) {
   const resolvedParams = await params;
   const { locale, id } = resolvedParams;

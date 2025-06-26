@@ -11,12 +11,12 @@
   },
   "home": {
     "greeting": "Hey there!  I'm Ziqiang",
-    "description": "Welcome to my personal space, a world full of creativity and technology",
+    "description": "I am a full-stack web developer with 9 years of experience and I currently reside in Hangzhou. I previously worked as technical expert in companies such as Xiaohongshu and Alibaba. Recently, I have been working on AI large model applications. This is a transformative era. Welcome to exchange technologies, ideas, and opportunities together.",
     "aboutButton": "About Me"
   },
   "about": {
     "title": "Hey there! I'm Ziqiang",
-    "intro1": "I am a full-stack web developer with 9 years of development experience and I currently reside in Hangzhou.",
+    "intro1": "I am a full-stack web developer with 9 years of development experience. I currently reside in Hangzhou.",
     "intro2": "Has led the architecture design and development of Billion-Scale Traffic Systems(Taobao 11-11 Festival), and is proficient in performance optimization.",
     "intro3": "In recent years, I have fully embraced the technological wave of AI, from personal assistants and programming assistance, to projects such as‘AI models & virtual fitting’.",
     "intro4": "I enjoy exploring new things and relishing the process of solving problems. In my spare time, I like going hiking outdoors, cycling, and shooting. Welcome to communicate.",

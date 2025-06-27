@@ -1,0 +1,9 @@
+name = "heziqiang-me"
+compatibility_date = "2025-01-01"
+
+# 添加 Pages 构建输出目录配置
+pages_build_output_dir = "output"
+
+# Pages 项目配置
+[env.production]
+compatibility_date = "2025-01-01"

@@ -2,6 +2,26 @@ import { Button } from "@/components/ui/button";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getProjectById, getProjectContent, getAllProjects } from "@/data/projects";
 import { Link } from "@/i18n/navigation";
+import { locales } from "@/i18n/config/settings";
+
+// 为所有支持的语言和所有项目ID生成静态路由
+export async function generateStaticParams() {
+  const projects = getAllProjects();
+  
+  // 为每种语言和每个项目ID组合生成路由参数
+  const params = [];
+  
+  for (const locale of locales) {
+    for (const project of projects) {
+      params.push({
+        locale,
+        id: project.id.toString(),
+      });
+    }
+  }
+  
+  return params;
+}
 
 export default async function ProjectDetail({
   params,
@@ -103,12 +123,4 @@ export default async function ProjectDetail({
       </div>
     </div>
   );
-}
-
-// 生成静态路径
-export async function generateStaticParams() {
-  const projects = getAllProjects();
-  return projects.map((project) => ({
-    id: project.id.toString(),
-  }));
 }

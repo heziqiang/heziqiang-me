@@ -4,6 +4,14 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAllProjects } from "@/data/projects";
+import { locales } from "@/i18n/config/settings";
+
+// 为所有支持的语言生成静态路由
+export async function generateStaticParams() {
+  return locales.map((locale) => ({
+    locale,
+  }));
+}
 
 export default async function Project({
   params,

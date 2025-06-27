@@ -10,8 +10,8 @@
     "brand": "My Website"
   },
   "home": {
-    "greeting": "Hey there!  I'm Ziqiang",
-    "description": "I am a full-stack web developer with 9 years of experience and I currently reside in Hangzhou. I previously worked as technical expert in companies such as Xiaohongshu and Alibaba. Recently, I have been working on AI large model applications. This is a transformative era. Welcome to exchange technologies, ideas, and opportunities together.",
+    "greeting": "Hey there! I'm Ziqiang",
+    "description": "I am a full-stack web developer <img src='/man_coder.png' alt='coder' class='inline-block h-6 w-6 rounded -mt-1' /> with 9 years of experience and I currently reside in Hangzhou. I previously worked as technical expert in companies such as Xiaohongshu <img src='/xiaohongshu.jpg' alt='xiaohongshu' class='inline-block h-6 w-6 rounded -mt-1' /> and Alibaba <img src='/alibaba.png' alt='alibaba' class='inline-block h-6 w-6 rounded -mt-1' />. Recently, I have been working on AI applications. This is an era of great change<img src='/star_glowing.png' alt='star' class='inline-block h-6 w-6 rounded -mt-1' />. Let's exchange ideas, technologies and opportunities together.",
     "aboutButton": "About Me"
   },
   "about": {

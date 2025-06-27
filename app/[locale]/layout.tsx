@@ -9,6 +9,7 @@ import {
 import { Noto_Sans_SC } from "next/font/google";
 import Navbar from "@/components/navbar";
 import "../globals.css";
+import { locales } from "@/i18n/config/settings";
 
 const notoSansSC = Noto_Sans_SC({
   weight: ["400", "500", "700"],
@@ -21,6 +22,13 @@ type Props = {
   children: ReactNode;
   params: Promise<{ locale: string }>;
 };
+
+// 为所有支持的语言生成静态路由
+export async function generateStaticParams() {
+  return locales.map((locale) => ({
+    locale,
+  }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loading...</title>
+    <script>
+      // 获取浏览器语言
+      function getBrowserLanguage() {
+        const language = navigator.language || navigator.userLanguage;
+        return language.toLowerCase().startsWith("en") ? "en" : "zh";
+      }
+
+      // 获取之前保存的语言偏好（如果有）
+      function getSavedLanguage() {
+        return localStorage.getItem("preferredLanguage");
+      }
+
+      // 立即执行重定向，不等待页面完全加载
+      (function () {
+        // 优先使用保存的语言偏好
+        const savedLanguage = getSavedLanguage();
+        // 如果没有保存的偏好，则使用浏览器语言或默认为中文
+        const language = savedLanguage || getBrowserLanguage() || "zh";
+
+        // 立即重定向到相应语言页面
+        window.location.replace("/" + language);
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- 保持body为空，因为页面会立即重定向 -->
+  </body>
+</html>

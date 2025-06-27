@@ -3,6 +3,14 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { locales } from "@/i18n/config/settings";
+
+// 为所有支持的语言生成静态路由
+export async function generateStaticParams() {
+  return locales.map((locale) => ({
+    locale,
+  }));
+}
 
 // 定义技能组和技能的类型
 type Skill = string;

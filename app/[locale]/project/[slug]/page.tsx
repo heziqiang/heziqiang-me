@@ -1,21 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { getProjectById, getProjectContent, getAllProjects } from "@/data/projects";
+import { getProjectBySlug, getAllProjects } from "@/data/projects";
 import { Link } from "@/i18n/navigation";
 import { locales } from "@/i18n/config/settings";
 
-// 为所有支持的语言和所有项目ID生成静态路由
+// 为所有支持的语言和所有项目slug生成静态路由
 export async function generateStaticParams() {
   const projects = getAllProjects();
   
-  // 为每种语言和每个项目ID组合生成路由参数
+  // 为每种语言和每个项目slug组合生成路由参数
   const params = [];
   
   for (const locale of locales) {
     for (const project of projects) {
       params.push({
         locale,
-        id: project.id.toString(),
+        slug: project.slug,
       });
     }
   }
@@ -26,16 +26,16 @@ export async function generateStaticParams() {
 export default async function ProjectDetail({
   params,
 }: {
-  params: Promise<{ locale: string; id: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
   const resolvedParams = await params;
-  const { locale, id } = resolvedParams;
+  const { locale, slug } = resolvedParams;
   
   setRequestLocale(locale);
   const t = await getTranslations("projects");
   
   // 使用数据函数获取项目
-  const project = getProjectById(parseInt(id));
+  const project = await getProjectBySlug(slug);
   
   if (!project) {
     return (
@@ -55,8 +55,6 @@ export default async function ProjectDetail({
       </div>
     );
   }
-  
-  const contentHtml = await getProjectContent(project.content);
   
   return (
     <div className="min-h-screen py-12">
@@ -79,7 +77,7 @@ export default async function ProjectDetail({
           
           {/* 项目标题和标签 */}
           <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-800 mb-4">
+            <h1 className="text-3xl font-medium text-gray-800 mb-4">
               {project.title}
             </h1>
             
@@ -99,8 +97,8 @@ export default async function ProjectDetail({
           {/* 项目内容 */}
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
             <div 
-              className="prose prose-lg max-w-none p-8 prose-headings:text-gray-800 prose-p:text-gray-600 prose-a:text-blue-600 prose-strong:text-gray-800 prose-code:text-gray-700 prose-code:bg-gray-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-gray-50 prose-pre:border prose-pre:text-gray-800 prose-img:rounded-lg prose-img:shadow-md"
-              dangerouslySetInnerHTML={{ __html: contentHtml }}
+              className="prose prose-md max-w-none p-8 prose-headings:text-gray-800 prose-p:text-gray-600  prose-a:text-blue-600 prose-strong:text-gray-800 prose-code:text-gray-700 prose-code:bg-gray-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-gray-50 prose-pre:border prose-pre:text-gray-800 prose-img:rounded-lg prose-img:shadow-sm"
+              dangerouslySetInnerHTML={{ __html: project.contentHtml }}
             />
           </div>
           

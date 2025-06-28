@@ -45,9 +45,9 @@ export default async function Project({
           {/* 项目网格 */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12">
             {projects.map((project) => (
-              <div key={project.id} className="group relative">
+              <div key={project.slug} className="group relative">
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden group-hover:-translate-y-1">
-                  <Link href={`/project/${project.id}`}>
+                  <Link href={`/project/${project.slug}`}>
                     <div className="aspect-[4/3] relative bg-gray-100 overflow-hidden">
                       <Image
                         src={project.coverImage}
@@ -59,7 +59,7 @@ export default async function Project({
                     <h3 className={`text-xl font-medium mt-4 flex items-center`}>
                       {project.title}
                     </h3>
-                    <p className="text-gray-600 text-sm leading-relaxed mt-2">
+                    <p className="text-gray-800 text-sm leading-relaxed mt-2 line-clamp-3">
                       {project.abstract}
                     </p>
                     <div className="flex flex-wrap gap-2 mt-3">

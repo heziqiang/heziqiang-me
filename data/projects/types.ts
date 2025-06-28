@@ -1,17 +1,17 @@
 export interface Project {
-  id: number;
+  slug: string;
   title: string;
   abstract: string;
   category: string;
   coverImage: string;
   tags: string[];
-  content: string;
+  contentFile: string;
+  contentHtml: string;
   createdAt?: string;
   updatedAt?: string;
 }
 
 export interface ProjectMeta {
-  id: number;
   slug: string;
   featured: boolean;
 }

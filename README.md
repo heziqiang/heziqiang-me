@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+基于 Next.js 构建的个人网站，支持中英文双语切换，采用全栈静态化部署。
 
-## Getting Started
+## 功能特点
 
-First, run the development server:
+- 🏠 首页：个人简介和主要导航
+- 👨‍💻 关于我：个人经历和技能介绍
+- 🎯 项目：个人项目展示
+- 📝 博客：技术文章和想法分享
+- 🌏 中/英文双语支持
+
+## 技术栈
+
+- **框架**: [Next.js](https://nextjs.org)
+- **样式**: [Tailwind CSS](https://tailwindcss.com)
+- **语言**: [TypeScript](https://www.typescriptlang.org)
+- **样式处理**: [PostCSS](https://postcss.org)
+- **内容解析**: [remark](https://github.com/remarkjs/remark)
+- **国际化**: [next-intl](https://next-intl-docs.vercel.app)
+- **部署**: [Cloudflare Pages](https://pages.cloudflare.com)
+
+## 主要特性
+
+### 国际化支持
+
+- 基于 next-intl 实现中英文双语切换
+- 路由自动适配语言参数
+
+### 内容管理
+
+- 静态内容：JSX 源码开发
+- 动态内容：Markdown 格式存储
+- 使用 remark 进行运行时解析渲染
+
+### 性能优化
+
+- Next.js SSG 全栈静态化导出
+- Cloudflare CDN 全球加速
+
+## 开发
 
 ```bash
+# 安装依赖
+npm install
+
+# 开发模式
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 构建
+npm run build
+
+# 预览
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 部署
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+项目托管在 Cloudflare Pages，自动构建部署。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# 构建 - 静态导出 - 部署
+npm run deploy
+```
 
-## Learn More
+## 开源协议
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT

@@ -10,12 +10,12 @@
     "brand": "My Website"
   },
   "home": {
-    "greeting": "Hey there! I'm Ziqiang",
-    "description": "I am a full-stack web developer <img src='/man_coder.png' alt='coder' class='inline-block h-6 w-6 rounded -mt-1' /> with 9 years of experience and I currently reside in Hangzhou. I previously worked as technical expert in companies such as Xiaohongshu <img src='/xiaohongshu.jpg' alt='xiaohongshu' class='inline-block h-6 w-6 rounded -mt-1' /> and Alibaba <img src='/alibaba.png' alt='alibaba' class='inline-block h-6 w-6 rounded -mt-1' />. Recently, I have been working on AI applications. This is an era of great change<img src='/star_glowing.png' alt='star' class='inline-block h-6 w-6 rounded -mt-1' />. Let's exchange ideas, technologies and opportunities together.",
+    "greeting": "Hey! I'm Ziqiang",
+    "description": "I am a full-stack web developer<img src='/man_coder.png' alt='coder' class='inline-block h-6 w-6 rounded -mt-1' /> with 9 years of experience. I previously worked as technical expert in companies such as Xiaohongshu<img src='/xiaohongshu.jpg' alt='xiaohongshu' class='inline-block h-6 w-6 rounded -mt-1' /> and Alibaba<img src='/alibaba_white.png' alt='alibaba' class='inline-block h-6 w-8 rounded -mt-1' />. Recently, I have been working on AI applications. This is an era of great change. Let's exchange ideas, technologies and opportunities together<img src='/star_glowing.png' alt='star' class='inline-block h-6 w-6 rounded -mt-1' />.",
     "aboutButton": "About Me"
   },
   "about": {
-    "title": "Hey there! I'm Ziqiang",
+    "title": "Hey! I'm Ziqiang",
     "intro1": "I am a full-stack web developer with 9 years of development experience. I currently reside in Hangzhou.",
     "intro2": "Has led the architecture design and development of Billion-Scale Traffic Systems(Taobao 11-11 Festival), and is proficient in performance optimization.",
     "intro3": "In recent years, I have fully embraced the technological wave of AI, from personal assistants and programming assistance, to projects such as‘AI models & virtual fitting’.",

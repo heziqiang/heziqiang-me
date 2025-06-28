@@ -51,7 +51,7 @@ export default async function Navbar({ locale }: { locale: string }) {
               <Menu className="h-5 w-5 text-gray-600" />
             </Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent align="end" className="w-48 mx-2 bg-white border border-gray-100">
+          <DropdownMenuContent align="end" className="w-32 p-4 mx-2 bg-white border border-gray-100 flex flex-col gap-2">
             {menuItems.map((item) => (
               <DropdownMenuItem key={item.path} asChild>
                 <NavLink href={item.path}>

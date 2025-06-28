@@ -11,7 +11,7 @@
   },
   "home": {
     "greeting": "你好！我是何自强",
-    "description": "我是一名web全栈开发工程师 <img src='/man_coder.png' alt='coder' class='inline-block h-6 w-6 rounded -mt-1' />，有9年开发经验，现居杭州。之前在小红书 <img src='/xiaohongshu.jpg' alt='xiaohongshu' class='inline-block h-6 w-6 rounded -mt-1' />、阿里巴巴 <img src='/alibaba.png' alt='alibaba' class='inline-block h-6 w-6 rounded -mt-1' /> 等公司任技术专家，最近在做AI大模型应用。这是一个巨变的时代 <img src='/star_glowing.png' alt='star' class='inline-block h-6 w-6 rounded -mt-1' />，欢迎一起交流技术、创意、机会。",
+    "description": "我是一名web全栈开发工程师<img src='/man_coder.png' alt='coder' class='inline-block h-6 w-6 rounded -mt-1' />，有9年经验，现居杭州。之前在小红书<img src='/xiaohongshu.jpg' alt='xiaohongshu' class='inline-block h-6 w-6 rounded -mt-1' />、阿里巴巴<img src='/alibaba_white.png' alt='alibaba' class='inline-block h-6 w-8 rounded -mt-1' /> 等公司任技术专家，最近在做AI大模型应用。这是一个巨变的时代，欢迎一起交流技术、创意、机会<img src='/star_glowing.png' alt='star' class='inline-block h-6 w-6 rounded -mt-1' />。",
     "aboutButton": "我的简历"
   },
   "about": {

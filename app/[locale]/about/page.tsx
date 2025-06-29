@@ -159,10 +159,10 @@ export default async function About({
       logo: "/alibaba.png",
     },
     {
-      id: "dingding",
-      titleKey: "dingdingTitle",
-      positionKey: "dingdingPosition",
-      descriptionKey: "dingdingDescription",
+      id: "teambition",
+      titleKey: "teambitionTitle",
+      positionKey: "teambitionPosition",
+      descriptionKey: "teambitionDescription",
       logo: "/teambition.jpg",
     },
   ];

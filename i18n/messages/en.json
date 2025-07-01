@@ -11,15 +11,15 @@
   },
   "home": {
     "greeting": "Hey! I'm Ziqiang",
-    "description": "I am a full-stack web developer<img src='/man_coder.png' alt='coder' class='inline-block h-6 w-6 rounded -mt-1' /> with 9 years of experience. I previously worked as technical expert in companies such as Xiaohongshu<img src='/xiaohongshu.jpg' alt='xiaohongshu' class='inline-block h-6 w-6 rounded -mt-1' /> and Alibaba<img src='/alibaba_white.png' alt='alibaba' class='inline-block h-6 w-8 rounded -mt-1' />. Recently, I have been working on AI applications. This is an era of great change. Let's exchange ideas, technologies and opportunities together<img src='/star_glowing.png' alt='star' class='inline-block h-6 w-6 rounded -mt-1' />.",
+    "description": "I am a full-stack web developer<img src='/man_coder.png' alt='coder' class='inline-block h-6 w-6 rounded -mt-1' /> with 9 years of experience. I previously worked as technical expert in companies such as Xiaohongshu<img src='/xiaohongshu.jpg' alt='xiaohongshu' class='inline-block h-6 w-6 rounded -mt-1' /> and Alibaba<img src='/alibaba_white.png' alt='alibaba' class='inline-block h-6 w-8 rounded -mt-1' />. Recently, I have been focusing on AI applications. This is an era of great change. Let's exchange ideas, technologies, and opportunities together<img src='/star_glowing.png' alt='star' class='inline-block h-6 w-6 rounded -mt-1' />.",
     "aboutButton": "About Me"
   },
   "about": {
     "title": "Hey! I'm Ziqiang",
-    "intro1": "I am a full-stack web developer with 9 years of development experience. I currently reside in Hangzhou.",
-    "intro2": "Has led the architecture design and development of Billion-Scale Traffic Systems(Taobao 11-11 Festival), and is proficient in performance optimization.",
-    "intro3": "In recent years, I have fully embraced the technological wave of AI, from personal assistants and programming assistance, to projects such as‘AI models & virtual fitting’.",
-    "intro4": "I enjoy exploring new things and relishing the process of solving problems. In my spare time, I like going hiking outdoors, cycling, and shooting. Welcome to communicate.",
+    "intro1": "I am a full-stack web engineer with 9 years of development experience, currently based in Hangzhou.",
+    "intro2": "I have led the architecture design and development of billion-level traffic systems (Taobao 11.11 PBS), specializing in extreme performance optimization.",
+    "intro3": "Over the past few years, I have fully embraced the AI technology wave, from programming assistance to implementing 'AI models virtual try-on' project.",
+    "intro4": "I enjoy exploring new technologies, and I find great satisfaction in the problem-solving process. In my spare time, I love outdoor activities such as hiking, cycling, and shooting. Welcome to connect and exchange ideas.",
     "skills": "Skills",
     "frontendDev": "Frontend",
     "backendDev": "Backend",

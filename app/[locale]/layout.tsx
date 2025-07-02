@@ -8,6 +8,7 @@ import {
 } from "next-intl/server";
 import { Noto_Sans_SC } from "next/font/google";
 import Navbar from "@/components/navbar";
+import { Toaster } from "@/components/ui/sonner"
 import "../globals.css";
 import { locales } from "@/i18n/config/settings";
 
@@ -61,6 +62,7 @@ export default async function LocaleLayout({
           <div className="min-h-screen relative">
             <Navbar locale={locale} />
             <main>{children}</main>
+            <Toaster position="top-center" richColors/>
           </div>
         </NextIntlClientProvider>
       </body>

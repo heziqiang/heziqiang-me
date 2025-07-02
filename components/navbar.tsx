@@ -20,6 +20,7 @@ export default async function Navbar({ locale }: { locale: string }) {
     { title: t("home"), path: "/" },
     { title: t("about"), path: "/about" },
     { title: t("projects"), path: "/project" },
+    { title: t("contact"), path: "/contact" },
   ];
 
   return (

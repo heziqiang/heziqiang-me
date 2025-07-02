@@ -7,6 +7,7 @@
     "home": "Home",
     "about": "About",
     "projects": "Projects",
+    "contact": "Contact",
     "brand": "My Website"
   },
   "home": {
@@ -23,7 +24,7 @@
     "skills": "Skills",
     "frontendDev": "Frontend",
     "backendDev": "Backend",
-    "devOps": "DevOps",
+    "others": "Others",
     "aiModels": "AI Models",
     "workExperience": "Career Experience",
     "urbanicTitle": "Urbanic",
@@ -60,5 +61,26 @@
         "category": "Brand Design"
       }
     ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "address": "Hangzhou, China",
+    "email": "ziqianghe123@gmail.com",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "phoneOptional": "Phone (Optional)",
+      "message": "Message",
+      "submit": "Submit",
+      "namePlaceholder": "Enter your name",
+      "emailPlaceholder": "Enter your email",
+      "phonePlaceholder": "Enter your phone number",
+      "messagePlaceholder": "Enter your message..."
+    },
+    "leaveMessage": "Leave a message",
+    "backToHome": "Back to Home"
   }
 }

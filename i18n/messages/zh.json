@@ -1,5 +1,5 @@
 {
-    "metadata": {
+  "metadata": {
     "title": "何自强个人空间",
     "description": "何自强的个人空间，一个充满创意和技术的天地"
   },
@@ -7,6 +7,7 @@
     "home": "首页",
     "about": "关于",
     "projects": "项目",
+    "contact": "联系",
     "brand": "我的网站"
   },
   "home": {
@@ -23,7 +24,7 @@
     "skills": "专业技能",
     "frontendDev": "前端开发",
     "backendDev": "服务端开发",
-    "devOps": "运维部署",
+    "others": "其他",
     "aiModels": "AI大模型",
     "workExperience": "工作经历",
     "urbanicTitle": "Urbanic",
@@ -60,5 +61,26 @@
         "category": "品牌设计"
       }
     ]
+  },
+  "contact": {
+    "title": "联系我",
+    "address": "中国浙江省杭州市",
+    "email": "ziqianghe123@gmail.com",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "phone": "手机号",
+      "phoneOptional": "手机号（可选）",
+      "message": "留言",
+      "submit": "提交",
+      "namePlaceholder": "请输入您的姓名",
+      "emailPlaceholder": "请输入您的邮箱",
+      "phonePlaceholder": "请输入您的手机号",
+      "messagePlaceholder": "请输入您的留言..."
+    },
+    "leaveMessage": "给我留言",
+    "backToHome": "返回首页"
   }
 }

@@ -13,7 +13,7 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
       locale={nextLocale}
       className="text-gray-400 transition-colors duration-300 hover:text-blue-500 inline-flex items-center gap-0.5"
     >
-      <Globe className="h-4 w-4" />
+      <Globe className="h-4 w-4 -mb-0.5" />
       <span>{locale === 'en' ? '中文' : 'English'}</span>
     </Link>
   );

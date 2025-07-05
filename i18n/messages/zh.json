@@ -12,7 +12,7 @@
   },
   "home": {
     "greeting": "你好！我是何自强",
-    "description": "我是一名web全栈开发工程师<img src='/man_coder.png' alt='coder' class='inline-block h-6 w-6 rounded -mt-1' />，有9年经验，现居杭州。之前在小红书<img src='/rednote.jpg' alt='RedNote' class='inline-block h-6 w-6 rounded -mt-1' />、阿里巴巴<img src='/alibaba_white.png' alt='alibaba' class='inline-block h-6 w-8 rounded -mt-1' /> 等公司任技术专家，最近在做AI大模型应用。这是一个巨变的时代，欢迎一起交流技术、创意、机会<img src='/star_glowing.png' alt='star' class='inline-block h-6 w-6 rounded -mt-1' />。",
+    "description": "我是一名web全栈开发工程师<img src='/man_coder.png' alt='coder' class='inline-block h-6 w-6 rounded -mt-1' />，有9年经验，现居杭州。之前在小红书<img src='/xiaohongshu.jpg' alt='Xiaohongshu' class='inline-block h-6 w-6 rounded -mt-1' />、阿里巴巴<img src='/alibaba_white.png' alt='alibaba' class='inline-block h-6 w-8 rounded -mt-1' /> 等公司任技术专家，最近在做AI大模型应用。这是一个巨变的时代，欢迎一起交流技术、创意、机会<img src='/star_glowing.png' alt='star' class='inline-block h-6 w-6 rounded -mt-1' />。",
     "aboutButton": "我的简历"
   },
   "about": {
@@ -31,9 +31,9 @@
     "urbanicTitle": "Urbanic",
     "urbanicPosition": "跨境电商技术负责人 | 2023-至今",
     "urbanicDescription": "负责跨境电商App开发团队，包括移动端、PC端、CRM等后台。推动成立AI创新部门，训练AI应用模型，上线'AI模特虚拟试衣'项目。",
-    "rednoteTitle": "小红书",
-    "rednotePosition": "技术专家 | 2022-2023",
-    "rednoteDescription": "负责企业效率部SaaS产品开发。通过信息聚合、流程引擎等破除信息孤岛、提升办公效率。引入LRU/OT协同算法解决性能瓶颈问题。",
+    "xiaohongshuTitle": "小红书",
+    "xiaohongshuPosition": "技术专家 | 2022-2023",
+    "xiaohongshuDescription": "负责企业效率部SaaS产品开发。通过信息聚合、流程引擎等破除信息孤岛、提升办公效率。引入LRU/OT协同算法解决性能瓶颈问题。",
     "alibabaTitle": "阿里巴巴",
     "alibabaPosition": "高级工程师 | 2017-2022",
     "alibabaDescription": "参与阿里双11活动页面搭建系统设计，包括页面搭建、数据投放、流量监控等。作为基石系统负载了2017-2020年双十一亿级流量。后来负责阿里巴巴数字化运营BI系统，速搭项目节约开发成本500万+。",

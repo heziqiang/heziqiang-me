@@ -141,11 +141,11 @@ export default async function About({
       logo: "/urbanic.png",
     },
     {
-      id: "rednote",
-      titleKey: "rednoteTitle",
-      positionKey: "rednotePosition",
-      descriptionKey: "rednoteDescription",
-      logo: "/rednote.jpg",
+      id: "xiaohongshu",
+      titleKey: "xiaohongshuTitle",
+      positionKey: "xiaohongshuPosition",
+      descriptionKey: "xiaohongshuDescription",
+      logo: "/xiaohongshu.jpg",
     },
     {
       id: "alibaba",

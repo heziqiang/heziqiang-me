@@ -16,12 +16,25 @@ Teambition是业界领先的团队协作工具，通过共享项目、任务、�
 - 团队日程安排
 - 企业级角色权限管控
 
-![这是图片](/teambition_project.jpg)
+![这是图片](/teambition_project.png)
 
 
 ## 技术架构
 
-服务端全部使用 Node.js 开发，基于 Express 框架定制，采用 Mongodb+Redis 分布式部署。是国内最早的Node全栈践行者。
+服务端全部使用 Node.js 开发，基于 Express 框架定制，采用 Mongodb+Redis 分布式部署。是国内最早的Node.js全栈践行者。
 
-前端采用自研框架(参考Backbone)，是国内最早实现MVVM双向数据绑定的大规模
+前端采用自研的MVVM框架，是国内最早实现MVVM双向数据绑定的大规模
 商业项目，实时状态同步。彼时 React/Angular 还尚未抵达。
+
+### 企业版
+企业版是我主要负责的核心功能, 举个例子，我负责设计实施企业级角色权限管控。
+
+在企业中会涉及到很多协作角色、比如 HR、项目经理、销售、财务等等，。Teambition 按行业模板会默认提供一些角色，企业可以根据实际需要定制角色，让职责划分更清晰。
+![这是图片](/teambition_roles.png)
+
+当我们将企业角色设置好后，即可为他们配置不同的权限。
+
+比如，项目经理可以操作企业全部成员的添加、删除和修改信息是不合适的，那么我们可以通过勾选方法更精细地控制项目经理的权限，以避免权限过大造成的安全风险。
+![这是图片](/teambition_permissions.png)
+
+在数据安全方面，我们也极为重视，可以参考：[《Teambition安全白皮书》](https://dn-st.oss.aliyuncs.com/public%2FTeambition%E5%AE%89%E5%85%A8%E7%99%BD%E7%9A%AE%E4%B9%A6(v1.0).pdf)

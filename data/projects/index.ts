@@ -18,14 +18,14 @@ const projectsData: Project[] = [
     contentHtml: "",
   },
   {
-    slug: "xiaohongshu-organization",
+    slug: "rednote-organization",
     title: "小红书组织管理系统2.0",
     abstract:
       "小红书企业组织架构，含10000+部门/人员节点，超大规模列表页面优化重构，基于OT算法的实时协同编辑。",
     category: "",
-    coverImage: "/xiaohongshu_cover.jpg",
+    coverImage: "/rednote_cover.jpg",
     tags: ["效能工具", "性能优化", "OT算法"],
-    contentFile: "xiaohongshu-organization.md",
+    contentFile: "rednote-organization.md",
     contentHtml: "",
   },
   {

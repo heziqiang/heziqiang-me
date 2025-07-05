@@ -17,10 +17,11 @@
   },
   "about": {
     "title": "Hey! I'm Ziqiang",
-    "intro1": "I am a full-stack web engineer with 9 years of development experience, currently based in Hangzhou.",
-    "intro2": "I have led the architecture design and development of billion-level traffic systems (Taobao 11.11 PBS), specializing in extreme performance optimization.",
+    "intro1": "I'm a full-stack engineer with 9 years of development experience, currently based in Hangzhou, China.",
+    "intro2": "I previously worked as Staff Frontend Engineer at Alibaba and Xiaohongshu. I have led the architecture design and development of billion-level traffic systems, specializing in extreme performance optimization.",
     "intro3": "Over the past few years, I have fully embraced the AI technology wave, from programming assistance to implementing 'AI models virtual try-on' project.",
-    "intro4": "I enjoy exploring new technologies, and I find great satisfaction in the problem-solving process. In my spare time, I love outdoor activities such as hiking, cycling, and shooting. Welcome to connect and exchange ideas.",
+    "intro4": "I'm Fluent in English and experienced in collaborating with cross-functional teams across North America, Singapore, and India. I Also have 3 years of team management experience (with 8-10 people).",
+    "intro5": "I enjoy exploring new technologies, and I find great satisfaction in the problem-solving process. In my spare time, I love outdoor activities such as hiking, cycling, and shooting. Welcome to connect and exchange ideas.",
     "skills": "Skills",
     "frontendDev": "Frontend",
     "backendDev": "Backend",
@@ -31,11 +32,11 @@
     "urbanicPosition": "Cross-border E-commerce Technical Lead | 2023-Present",
     "urbanicDescription": "Responsible for cross-border e-commerce App products, including mobile, PC, and CRM backends. Using React, Typescript, Next.js, Ant Design and other technology stacks. Promoting the research and application of AI models in cross-border e-commerce, implementing 'AI Model & Virtual Fitting' projects.",
     "xiaohongshuTitle": "Xiaohongshu",
-    "xiaohongshuPosition": "Frontend Technical Expert | 2022-2023",
+    "xiaohongshuPosition": "Staff Software Engineer | 2022-2023",
     "xiaohongshuDescription": "Responsible for enterprise efficiency department SaaS product development. Breaking down information silos and improving office efficiency through information aggregation and process engines. Introduced LRU/OT collaborative algorithms to solve performance bottleneck issues.",
-    "alibabaTitle": "Alibaba(Taobao)",
-    "alibabaPosition": "Frontend Technical Expert | 2017-2022",
-    "alibabaDescription": "Participated in the design of Alibaba Double 11 page building system, including page building, data delivery, and traffic monitoring. As a cornerstone system, it handled billions of traffic from 2017-2020 Double 11. Later responsible for Taobao's digital operation quick-build project, saving more than 5 million in costs.",
+    "alibabaTitle": "Alibaba",
+    "alibabaPosition": "Staff Software Engineer | 2017-2022",
+    "alibabaDescription": "Participated in the design of Alibaba Double 11 page building system, including page building, data delivery, and traffic monitoring. As a cornerstone system, it handled billions of traffic from 2017-2020 Double 11. Later responsible for Alibaba's digital operation quick-build project, saving more than 5 million in costs.",
     "teambitionTitle": "Teambition",
     "teambitionPosition": "Node.js Engineer | 2015-2017",
     "teambitionDescription": "This is a startup company full of passion, with an excellent team and project management products. I participated in the journey from Series A to Series C, responsible for the development of Node.js services for the enterprise version, covering functions such as project management, task management, and document management.",
@@ -48,19 +49,7 @@
   "projects": {
     "title": "Projects",
     "description": "These are some of the projects I have completed recently, including both company projects and personal projects. Welcome any discussions.",
-    "backToHome": "Back to Home",
-    "projects": [
-      {
-        "title": "User Experience Design System",
-        "description": "A complete user experience system designed for large enterprises, including component libraries, design specifications, and interaction patterns.",
-        "category": "UX Design"
-      },
-      {
-        "title": "Brand Identity System",
-        "description": "A brand identity system created for startups, including logos, color systems, fonts, and application guidelines.",
-        "category": "Brand Design"
-      }
-    ]
+    "backToHome": "Back to Home"
   },
   "contact": {
     "title": "Contact Me",

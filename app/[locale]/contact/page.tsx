@@ -1,10 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { locales } from "@/i18n/config/settings";
 import { MapPin, Mail, Github, Linkedin } from "lucide-react";
 import CopyButton from "@/components/copy-button";
+import ContactForm from "@/components/contact-form";
 
 // 为所有支持的语言生成静态路由
 export async function generateStaticParams() {
@@ -98,66 +96,7 @@ export default async function Contact({
           {/* 右侧表单 */}
           <div className="bg-white rounded-lg shadow-sm border p-8">
             <h2 className="text-2xl font-medium mb-8">{t("leaveMessage")}</h2>
-
-            <form className="space-y-6" action="#" method="POST">
-              {/* 姓名 */}
-              <div>
-                <Input
-                  id="name"
-                  name="name"
-                  type="text"
-                  required
-                  placeholder="Full name"
-                  className="w-full h-12"
-                />
-              </div>
-
-              {/* 邮箱 */}
-              <div>
-                <Input
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                  placeholder="Email"
-                  className="w-full h-12"
-                />
-              </div>
-
-              {/* 手机号 */}
-              <div>
-                <Input
-                  id="phone"
-                  name="phone"
-                  type="tel"
-                  placeholder="Phone number (Optional)"
-                  className="w-full h-12"
-                />
-              </div>
-
-              {/* 留言 */}
-              <div>
-                <Textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  required
-                  placeholder="Message"
-                  className="w-full"
-                  style={{ minHeight: '120px', height: 'auto'}}
-                />
-              </div>
-
-              {/* 提交按钮 */}
-              <div className="flex justify-start">
-                <Button
-                  type="submit"
-                  className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 text-md transition-colors"
-                >
-                  {t("form.submit")}
-                </Button>
-              </div>
-            </form>
+            <ContactForm submitText={t("form.submit")} />
           </div>
         </div>
       </div>

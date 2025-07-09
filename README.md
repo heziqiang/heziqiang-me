@@ -45,19 +45,16 @@ npm install
 # 开发模式
 npm run dev
 
-# 构建
-npm run build
-
 # 预览
 npm run start
 ```
 
 ## 部署
 
-项目托管在 Cloudflare Pages，自动构建部署。
+项目托管在 Cloudflare Pages
 
 ```bash
-# 构建 - 静态导出 - 部署
+# 构建 - 部署
 npm run deploy
 ```
 

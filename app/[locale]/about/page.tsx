@@ -75,7 +75,13 @@ export default async function About({
         </svg>
       ),
       progress: 100,
-      skills: ["React", "Next.js", "Vite", "TypeScript", "Tailwind CSS"],
+      skills: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Vite/Webpack",
+        "Tailwind CSS",
+      ],
     },
     {
       id: "backend",
@@ -95,11 +101,11 @@ export default async function About({
         </svg>
       ),
       progress: 90,
-      skills: ["Node.js", "Python", "SQL", "Redis", "AWS", "Docker"],
+      skills: ["Node.js", "Python", "Express", "SQL", "Redis", "Testing", "RESTful API"],
     },
     {
-      id: "ai",
-      titleKey: "aiModels",
+      id: "devOps",
+      titleKey: "devOps",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -107,11 +113,11 @@ export default async function About({
           viewBox="0 0 24 24"
           fill="currentColor"
         >
-          <path d="M21 9v6h-2V9h2zm-6 6V9h-2v6h2zM5 9v6H3V9h2zm14-6H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z" />
+          <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z" />
         </svg>
       ),
       progress: 70,
-      skills: ["Cursor", "Copilet", "Stable Diffusion", "LoRA", "Prompt"],
+      skills: ["AWS", "Docker", "CI/CD", "shell", "nginx", "pm2"],
     },
     {
       id: "others",
@@ -123,11 +129,11 @@ export default async function About({
           viewBox="0 0 24 24"
           fill="currentColor"
         >
-          <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z" />
+          <path d="M21 9v6h-2V9h2zm-6 6V9h-2v6h2zM5 9v6H3V9h2zm14-6H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z" />
         </svg>
       ),
       progress: 80,
-      skills: ["Remote collaboration", "GitFlow", "RESTful", "Architecture"],
+      skills: ["Cursor", "Git", "GitFlow", "Architecture"],
     },
   ];
 
@@ -198,7 +204,6 @@ export default async function About({
               <p className="mb-2">{t("intro2")}</p>
               <p className="mb-2">{t("intro3")}</p>
               <p className="mb-2">{t("intro4")}</p>
-              <p className="mb-2">{t("intro5")}</p>
             </div>
           </div>
 

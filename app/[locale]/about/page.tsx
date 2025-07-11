@@ -117,7 +117,7 @@ export default async function About({
         </svg>
       ),
       progress: 70,
-      skills: ["AWS", "Docker", "CI/CD", "shell", "nginx", "pm2"],
+      skills: ["AWS", "Docker", "CI/CD", "Shell", "Nginx", "pm2"],
     },
     {
       id: "others",
@@ -133,7 +133,7 @@ export default async function About({
         </svg>
       ),
       progress: 80,
-      skills: ["Cursor", "Git", "GitFlow", "Architecture"],
+      skills: ["Cursor", "Git", "GitFlow", "Systems Design", "SEO"],
     },
   ];
 

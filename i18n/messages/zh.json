@@ -18,7 +18,7 @@
   "about": {
     "title": "你好，我是何自强",
     "intro1": "一名全栈工程师，专注于 React + Node.js 技术栈，现居杭州，拥有 8 年以上开发经验。",
-    "intro2": "曾任阿里巴巴、小红书技术专家，负责电商与 SaaS 系统架构设计与落地，主导大型营销平台、实时协同中后台及跨境电商 App 项目。擅长性能优化、SEO，多端响应式开发覆盖移动端、H5 与 PC。",
+    "intro2": "曾任阿里巴巴、小红书技术专家，专注于电商及 SaaS 领域。主导过大型营销平台、实时协同中后台系统，以及跨境电商 App 等项目。擅长性能优化、SEO、多端响应式开发",
     "intro3": "熟悉英文办公与异步协作流程，常与北美、英国、新加坡、印度团队跨时区合作，具备 3 年团队管理经验（6–10 人）。",
     "intro4": "我喜欢学习新技术与探索新方向，享受从 0 到 1 搭建和优化产品的过程。平时喜欢户外爬山、骑行、射击。欢迎交流与合作。",
     "skills": "专业技能",
@@ -29,7 +29,7 @@
     "workExperience": "工作经历",
     "urbanicTitle": "Urbanic",
     "urbanicPosition": "全栈开发工程师 | 2023-至今",
-    "urbanicDescription": "负责跨境电商核心App的开发，包括移动端、H5、PC，主要使用 React 和 Node.js 技术栈。同时负责 Google SEO 优化，改善海外市场用户增长。",
+    "urbanicDescription": "Urbanic是一家英国伦敦的全球时尚公司。我负责电商核心 App 和网站的开发，主要使用 React 和 Node.js 技术栈。同时负责 Google SEO 优化，驱动用户增长。",
     "xiaohongshuTitle": "小红书",
     "xiaohongshuPosition": "前端技术专家 | 2022-2023",
     "xiaohongshuDescription": "负责 SaaS 产品开发，通过信息聚合与流程引擎打通数据孤岛，提升企业办公效率。引入 LRU 缓存及 OT 协同算法，有效解决性能瓶颈问题。",

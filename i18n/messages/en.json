@@ -18,7 +18,7 @@
   "about": {
     "title": "Hey! I'm Ziqiang",
     "intro1": "A full-stack engineer based in Hangzhou, specializing in the React + Node.js tech stack with over 8 years of development experience.",
-    "intro2": "Previously served as staff enginer at Alibaba and Xiaohongshu, responsible for architecture design and implementation of e-commerce and SaaS systems. Led large-scale marketing platforms, real-time collaborative admin systems, and cross-border e-commerce app projects. Skilled in performance optimization and SEO, with multi-device responsive development covering mobile, H5, and desktop.",
+    "intro2": "I previously worked as a Staff Engineer at Alibaba and Xiaohongshu, focusing on e-commerce and SaaS. Specialized in high-performance, large-scale marketing platforms, real-time collaborative admin system, and global e-commerce apps. Skilled in performance optimization, SEO, and multi-device responsive development.",
     "intro3": "I'm experienced with English working environments and asynchronous collaboration across time zones, including North America, the UK, Singapore, and India. I also have 3 years of team management experience (6–10 people).",
     "intro4": "I love exploring new technologies and ideas, and enjoy building and refining products from the ground up. Outside of work, I like hiking, cycling, and shooting. Happy to connect and chat!",
     "skills": "Skills",
@@ -29,7 +29,7 @@
     "workExperience": "Career Experience",
     "urbanicTitle": "Urbanic",
     "urbanicPosition": "Full-stack Software Enginer  | 2023-Present",
-    "urbanicDescription": "Develop core systems for cross-border e-commerce, covering mobile, web, and CRM platforms using React and Node.js. Drive AI innovation, successfully launching an “AI virtual try-on” feature that improves user engagement.",
+    "urbanicDescription": "Urbanic is a London-based global fashion company. I'm responsible for developing the core e-commerce app and website using the React and Node.js tech stack. I also handle Google SEO optimization to drive user growth",
     "xiaohongshuTitle": "Xiaohongshu",
     "xiaohongshuPosition": "Staff Software Engineer | 2022-2023",
     "xiaohongshuDescription": "Led SaaS product development to enhance enterprise productivity by breaking data silos through info aggregation and workflow engine. Solved performance bottlenecks by introducing LRU caching and OT collaborative algorithms.",

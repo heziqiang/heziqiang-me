@@ -90,6 +90,16 @@ export default async function Project({
                   {t("backToHome")}
                 </Button>
               </Link>
+
+              <Link href="/contact" className="ml-8">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="w-32 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-600"
+                >
+                  {t("contactMe")}
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

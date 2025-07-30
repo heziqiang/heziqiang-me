@@ -325,13 +325,23 @@ export default async function About({
           {/* 返回首页按钮 */}
           <div className="mt-12 text-center">
             <div className="flex justify-center mt-8">
-              <Link href="/">
+              <Link href="/project">
                 <Button
                   variant="outline"
                   size="lg"
                   className="w-32 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-600"
                 >
-                  {t("backToHome")}
+                  {t("goToProject")}
+                </Button>
+              </Link>
+
+              <Link href="/contact" className="ml-8">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="w-32 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-600"
+                >
+                  {t("contactMe")}
                 </Button>
               </Link>
             </div>

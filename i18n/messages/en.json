@@ -43,12 +43,14 @@
     "universityName": "East China University of Science and Technology",
     "universityMajor": "Information and Computing Science | 2008-2012",
     "universityDescription": "Bachelor of Science, Top-tier Chinese University (985/211)",
-    "backToHome": "Back to Home"
+    "goToProject": "View Projects",
+    "contactMe": "Contact Me"
   },
   "projects": {
     "title": "Projects",
-    "description": "These are some of the projects I have completed recently, including both company projects and personal projects. Welcome any discussions.",
-    "backToHome": "Back to Home"
+    "description": "Here are some of my recent projects, feel free to ask if you'd like to know more.",
+    "backToHome": "Back to Home",
+    "contactMe": "Contact Me"
   },
   "contact": {
     "title": "Contact Me",

@@ -43,12 +43,14 @@
     "universityName": "华东理工大学",
     "universityMajor": "信息与计算科学 | 2008-2012",
     "universityDescription": "本科 理学学士，国家重点985/211工程院校",
-    "backToHome": "返回首页"
+    "goToProject": "查看项目",
+    "contactMe": "联系我"
   },
   "projects": {
     "title": "项目",
-    "description": "这些是我近期完成的一些项目，包括公司项目和个人项目，欢迎交流。",
-    "backToHome": "返回首页"
+    "description": "这些是我近期完成的一些项目，希望了解更多的话，欢迎交流。",
+    "backToHome": "返回首页",
+    "contactMe": "联系我"
   },
   "contact": {
     "title": "联系我",

@@ -101,7 +101,14 @@ export default async function About({
         </svg>
       ),
       progress: 90,
-      skills: ["Node.js", "Python", "Express", "SQL", "Redis", "Testing", "RESTful API"],
+      skills: [
+        "Node.js",
+        "Express",
+        "MySQL",
+        "Redis",
+        "Serverless",
+        "RESTful API",
+      ],
     },
     {
       id: "devOps",
@@ -117,7 +124,7 @@ export default async function About({
         </svg>
       ),
       progress: 70,
-      skills: ["AWS", "Docker", "CI/CD", "Shell", "Nginx", "pm2"],
+      skills: ["AWS", "Cloudflare", "CI/CD", "Linux", "Docker", "Nginx", "pm2"],
     },
     {
       id: "others",
@@ -133,7 +140,7 @@ export default async function About({
         </svg>
       ),
       progress: 80,
-      skills: ["Cursor", "Git", "GitFlow", "Systems Design", "SEO"],
+      skills: ["AI Agent", "GitFlow", "Algorithm", "Systems Design", "SEO"],
     },
   ];
 

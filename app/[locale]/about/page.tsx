@@ -104,7 +104,7 @@ export default async function About({
       skills: [
         "Node.js",
         "Express",
-        "MySQL",
+        "PostgreSQL",
         "Redis",
         "Serverless",
         "RESTful API",

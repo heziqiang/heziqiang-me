@@ -197,7 +197,7 @@ export default async function About({
             {/* 左侧：个人照片 */}
             <div className="w-full md:w-1/3 flex items-center justify-center">
               <Avatar className="w-56 h-56 ring-4 ring-blue-500/20 shadow-xl transition-all duration-300 hover:scale-105">
-                <AvatarImage src="/daddypig.png" alt="Roman" />
+                <AvatarImage src="/daddypig_compress.png" alt="Roman" />
                 <AvatarFallback className="text-5xl font-bold">
                   R
                 </AvatarFallback>
